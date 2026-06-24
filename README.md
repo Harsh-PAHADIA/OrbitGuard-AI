@@ -1,42 +1,32 @@
 <div align="center">
 
-  <h1>🛡️ OrbitGuard AI Agent</h1>
+# 🛡️ OrbitGuard AI Agent
 
-  <p><b>AI-Powered Merge Request Risk Analyzer</b></p>
+### AI-Powered Merge Request Risk Analyzer
 
+<p align="center">
+  <a href="https://orbit-guard-ai.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-black?style=for-the-badge" />
+  </a>
 
+  <a href="https://orbitguard-ai-tgj9.onrender.com/docs">
+    <img src="https://img.shields.io/badge/📚_API_Docs-FastAPI-009688?style=for-the-badge" />
+  </a>
 
-  <p>
+  <a href="https://github.com/Harsh-PAHADIA/OrbitGuard-AI">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
-    <a href="https://orbit-guard-ai.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
-
-    <a href="https://orbitguard-ai-tgj9.onrender.com/docs"><img src="https://img.shields.io/badge/API_Docs-FastAPI-009688?style=for-the-badge&logo=fastapi" alt="API Docs" /></a>
-
-    <a href="https://github.com/Harsh-PAHADIA/OrbitGuard-AI"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github" alt="GitHub Repo" /></a>
-
-  </p>
-
-
-
-  <p>
-
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
-
-    <img src="https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite&logoColor=FFD62E" alt="Vite" />
-
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT" />
-
-  </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
 
 </div>
-
-
 
 <br />
 
