@@ -256,7 +256,7 @@ OrbitGuard AI was proudly conceptualized and developed for the **GitLab Transcen
 
 It serves as a functional prototype that demonstrates powerful AI-assisted impact analysis workflows. OrbitGuard was heavily inspired by the core concepts of GitLab Orbit, focusing heavily on bridging the gap between raw repository context, architectural intelligence, and actionable developer velocity. 
 
-*(Note: TCurrent implementation demonstrates repository-impact analysis workflows through a prototype risk engine. It does not actively parse or clone external repositories).*
+*(Note: Current implementation demonstrates repository-impact analysis workflows through a prototype risk engine. It does not actively parse or clone external repositories).*
 
 ## 📈 Why It Matters
 
