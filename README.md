@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ OrbitGuard AI</h1>
+  <h1>🛡️ OrbitGuard AI Agent</h1>
   <p><b>AI-Powered Merge Request Risk Analyzer</b></p>
 
   <p>
@@ -202,9 +202,48 @@ OrbitGuard utilizes a mock impact engine to simulate dependency risks. Try analy
 }
 ```
 
+## 🔭 GitLab Orbit Integration
+
+OrbitGuard AI Agent is designed around the same repository-context principles that power GitLab Orbit.
+
+The skill analyzes file modifications, estimates blast radius, identifies affected services, and generates remediation recommendations using repository-aware context.
+
+Within the GitLab Duo Agent Platform, OrbitGuard is packaged as a reusable skill:
+
+skills/
+└── orbitguard/
+    └── SKILL.md
+
+This allows repository-impact analysis workflows to be integrated into developer review and deployment processes.
+
+## 🤖 OrbitGuard Skill
+
+The GitLab Agent Platform skill provides:
+
+- Dependency Analysis
+- Blast Radius Estimation
+- Risk Classification
+- Architecture Violation Detection
+- Merge Request Recommendations
+
+Example:
+
+Input:
+Analyze backend/auth.py
+
+Output:
+Risk Level: HIGH
+Impact Score: 100
+Affected Services:
+- Authentication
+- Session Management
+
+Recommendation:
+Add integration tests before deployment.
+
 ## 🗺 Future Roadmap
 
-* **Real GitLab Orbit Integration:** Transition from mock mapping to integrating natively with GitLab Orbit's upcoming topological graphing APIs.
+* **Advanced GitLab Orbit API Integration:** Transition from mock mapping to integrating natively with GitLab Orbit's upcoming topological graphing APIs.
 * **Repository Dependency Scanning:** Implement AST parsing to build true, live dependency trees.
 * **Merge Request Automation:** Create a GitLab webhook integration that automatically posts the generated Markdown summaries directly to MR threads.
 * **AI Refactoring Suggestions:** Expand the recommendation engine using LLMs to provide inline code-fix suggestions.
@@ -217,7 +256,7 @@ OrbitGuard AI was proudly conceptualized and developed for the **GitLab Transcen
 
 It serves as a functional prototype that demonstrates powerful AI-assisted impact analysis workflows. OrbitGuard was heavily inspired by the core concepts of GitLab Orbit, focusing heavily on bridging the gap between raw repository context, architectural intelligence, and actionable developer velocity. 
 
-*(Note: The current backend utilizes static mocked response mapping to demonstrate the workflow and potential impact of the architecture. It does not actively parse or clone external repositories).*
+*(Note: TCurrent implementation demonstrates repository-impact analysis workflows through a prototype risk engine. It does not actively parse or clone external repositories).*
 
 ## 📈 Why It Matters
 
